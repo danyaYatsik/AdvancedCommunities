@@ -1,0 +1,55 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.container {
+    height: calc(100% - 5rem);
+    width: 60%;
+    margin: 4rem auto 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.list {
+    width: 80%;
+    height: 100%;
+    padding: .4rem;
+    background: lightgray;
+}
+
+.side-panel {
+    width: 20%;
+    height: 100%;
+}
+
+#new-item {
+    cursor: grab;
+    padding: .4rem;
+    margin: .4rem;
+    background: gray;
+}
+
+.item {
+    width: calc(100% - 1.5rem);
+    display: block;
+    border: none;
+    padding: .4rem;
+    margin: .4rem;
+    background: gray;
+}
+
+.inactive {
+    opacity: 50%;
+}
+
+.hovered {
+    border: 1px dashed red;
+}
